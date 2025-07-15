@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MediConnect</title>
+
+    <!-- Ícono y metadatos -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <meta name="description" content="Sistema de gestión médica con agenda y diagnóstico sugerido." />
+    <meta name="author" content="Lilith" />
+    <meta name="theme-color" content="#0077cc" />
+
+    <!-- TailwindCSS desde CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              medico: "#0077cc"
+            }
+          }
+        }
+      };
+    </script>
+  </head>
+
+  <body class="bg-gray-50 text-gray-900 font-sans leading-relaxed">
+    <!-- Aviso si JavaScript está deshabilitado -->
+    <noscript>
+      <div class="text-center mt-8 text-red-600">
+        Esta aplicación requiere JavaScript para funcionar correctamente.
+      </div>
+    </noscript>
+
+    <!-- React root -->
+    <div id="root"></div>
+
+    <!-- Entrada del script principal -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

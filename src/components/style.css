@@ -1,0 +1,64 @@
+/* -------- Sidebar (actualizado y mejorado) -------- */
+.sidebar {
+  background-color: #1565c0;
+  color: white;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.sidebar img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+.sidebar h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.sidebar a {
+  display: block;
+  padding: 0.75rem 1rem;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #e3f2fd;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.sidebar a:hover {
+  background-color: #0d47a1;
+}
+
+/* -------- Main Layout (ajustado para que no quede oculto) -------- */
+main {
+  margin-left: 250px; /* Debe coincidir con el ancho del sidebar */
+  padding: 2rem;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  overflow-x: hidden;
+}
+
+/* -------- Responsive (opcional para móviles) -------- */
+@media (max-width: 768px) {
+  .sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  main {
+    margin-left: 0;
+    padding: 1rem;
+  }
+}
