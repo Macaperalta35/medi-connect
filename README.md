@@ -87,6 +87,5 @@ medi-connect/
 
 ## Contacto
 
-Email: soporte@mediconnect.com  
-Telefono: +56 9 1234 5678  
-Direccion: Av. Salud 1234, Santiago, Chile
+Email: macarena.peralta@inacapmail.cl
+Proyecto educativo, evaluacion FrontEnd.
