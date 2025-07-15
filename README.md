@@ -1,6 +1,6 @@
 # MediConnect
 
-Plataforma web para gestión de pacientes con React y menú lateral elegante.
+Plataforma web para gestión de pacientes con React y menú lateral.
 
 ## Tecnologías
 
